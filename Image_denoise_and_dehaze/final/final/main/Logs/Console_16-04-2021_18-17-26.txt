@@ -1,0 +1,16 @@
+Dataset info - test: 23, train: 10000, first sample size:=24   1, var=10.44, min=0.000000, max=10.000000
+Verifying backProp..
+Checking layer 1  - input        
+Checking layer 2  - fc           
+Checking layer 3  - fc           
+Checking layer 4  - softmax      
+Checking layer 5  - output       
+Network is OK. Verification time=0.63
+[Warning: Training samples apear not to be in random order. For training to work well, class
+order in dataset need to be random. Please suffle labels and I (using the same seed) before
+passing to Train] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Train', 'C:\Users\ABN_01\Desktop\BIKASH_2020\Bikas\matlab_2020 -2021_code\BRAIN_TUMOUR\final\Training\Train.m', 50)" style="font-weight:bold">Train</a> (<a href="matlab: opentoline('C:\Users\ABN_01\Desktop\BIKASH_2020\Bikas\matlab_2020 -2021_code\BRAIN_TUMOUR\final\Training\Train.m',50,0)">line 50</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main', 'C:\Users\ABN_01\Desktop\BIKASH_2020\Bikas\matlab_2020 -2021_code\BRAIN_TUMOUR\final\final\main\main.m', 358)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('C:\Users\ABN_01\Desktop\BIKASH_2020\Bikas\matlab_2020 -2021_code\BRAIN_TUMOUR\final\final\main\main.m',358,0)">line 358</a>)] 
+Start training on 100 samples (0.0 epocs, 100 batches, batchSize=1)
+Iter 1  | samples=4000 | time=5.27  | lossTrain=0.242372 | rmsErr=4.147280 | rmsGrad=0.024467 | meanWeight=0.166384 | varWeight=0.027686 | lossTest=0.230857 | scesRate=4.25 % | minLoss=0.230857 | maxS=4.25 % | ni=0.001000 | tstTime=0.19 | totalTime=5.50 | noImpCnt=0/50
+Finish training. max samples reached

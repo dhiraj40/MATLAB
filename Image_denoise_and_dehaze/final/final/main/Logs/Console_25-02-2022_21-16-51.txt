@@ -1,0 +1,16 @@
+Dataset info - test: 86, train: 100, first sample size:=24   1, var=10.76, min=0.000000, max=10.000000
+Verifying backProp..
+Checking layer 1  - input        
+Checking layer 2  - fc           
+Checking layer 3  - fc           
+Checking layer 4  - softmax      
+Checking layer 5  - output       
+Network is OK. Verification time=0.38
+[Warning: Training samples apear not to be in random order. For training to work well, class
+order in dataset need to be random. Please suffle labels and I (using the same seed) before
+passing to Train] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Train', 'C:\Users\ABN_01\Desktop\BIKASH_2020\Bikas\matlab_2021-2022\gatro_final\gatro_final_code\final\Training\Train.m', 50)" style="font-weight:bold">Train</a> (<a href="matlab: opentoline('C:\Users\ABN_01\Desktop\BIKASH_2020\Bikas\matlab_2021-2022\gatro_final\gatro_final_code\final\Training\Train.m',50,0)">line 50</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main', 'C:\Users\ABN_01\Desktop\BIKASH_2020\Bikas\matlab_2021-2022\gatro_final\gatro_final_code\final\final\main\main.m', 360)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('C:\Users\ABN_01\Desktop\BIKASH_2020\Bikas\matlab_2021-2022\gatro_final\gatro_final_code\final\final\main\main.m',360,0)">line 360</a>)] 
+Start training on 100 samples (1.0 epocs, 100 batches, batchSize=1)
+Iter 1  | samples=4000 | time=5.06  | lossTrain=0.209248 | rmsErr=4.012891 | rmsGrad=0.019057 | meanWeight=0.166610 | varWeight=0.027757 | lossTest=0.229115 | scesRate=8.50 % | minLoss=0.229115 | maxS=8.50 % | ni=0.001000 | tstTime=0.17 | totalTime=5.31 | noImpCnt=0/50
+Finish training. max samples reached

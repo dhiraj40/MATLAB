@@ -1,0 +1,11 @@
+Dataset info - test: 86, train: 100, first sample size:=24   1, var=10.90, min=0.000000, max=10.000000
+Verifying backProp..
+Checking layer 1  - input        
+Checking layer 2  - fc           
+Checking layer 3  - fc           
+Checking layer 4  - softmax      
+Checking layer 5  - output       
+Network is OK. Verification time=0.25
+Start training on 100 samples (1.0 epocs, 100 batches, batchSize=1)
+Iter 1  | samples=4000 | time=5.88  | lossTrain=0.232764 | rmsErr=4.029918 | rmsGrad=0.017715 | meanWeight=0.166565 | varWeight=0.027738 | lossTest=0.228875 | scesRate=9.25 % | minLoss=0.228875 | maxS=9.25 % | ni=0.001000 | tstTime=0.10 | totalTime=6.04 | noImpCnt=0/50
+Finish training. max samples reached
